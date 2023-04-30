@@ -1,0 +1,124 @@
+*{
+	font-family: Montserrat, Raleway, Bahnschrift Light, sans-serif;
+	color: #ffe7a1;
+}
+
+/* classes */
+.orange{
+	color: #ff9f73;
+}
+hr.orange{
+	border: 1px solid #ff9f73;
+}
+.purple{
+	color: #d10ade;
+}
+hr.purple{
+	border: 1px solid #d10ade;
+	margin: 40px;
+}
+
+/* body */
+nav{
+	border: 2px solid #ffe7a1;
+	background: #2b2238;
+	padding: 20px;
+	position: top;
+	margin: 0px;
+	text-align: center;
+}
+nav a{
+	text-align: center;
+	margin: 10px;
+}
+
+h1 > img{
+	height: 200px;
+}
+hr{
+	border: 1px solid #ffe7a1;
+	margin: 40px 0px;
+}
+body{
+	/* background: #363948 url("https://opengameart.org/sites/default/files/512x512_purple_nebula_1.png"); */
+	background-image: url("../src/nebula.png"); 
+	background-color: #2a2e42;
+	/* background: #2a2e42; */
+	font-size: 18px;
+}
+section{
+	padding: 20px;
+	margin: 40px;
+	background: #2b2238;
+	border: 2px solid #ffe7a1;
+}
+img{
+	height: 200px;
+	width: auto;
+}
+#desc{
+	text-align: center;
+}
+#desc *{
+	
+}
+#saved{
+	text-align: center;
+}
+
+main{
+	margin: 40px;
+}
+main img{
+	border: 2px solid #ffe7a1;
+	margin: 0px 40px 0px 0px;
+}
+main p{
+	
+}
+fieldset *{
+	margin: 5px;
+}
+input{
+	color: #2a2e42;
+}
+
+/* header */
+header{
+	margin: 40px auto auto auto;
+	text-align: center;
+	width: 75%
+}
+header h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#ff9f73, #ffe7a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header h1 {
+  margin-bottom: 0;
+}
+h1 + h2 {
+  margin-top: 0;
+}
+
+/* footer */
+footer{
+	margin: auto auto 40px auto;
+	text-align: center;
+	width: 50%
+}
+footer a{
+	margin: 10px;
+}
+
+/* a */
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #ff9f73;
+}
+a:visited{
+	color: #ff9f73;
+}
